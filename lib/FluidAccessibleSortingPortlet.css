@@ -1,0 +1,17 @@
+.portlet {
+  width: 165px;
+  background-color: lightyellow;
+  padding: 10px;
+  margin: 0 0 10px 0 !important;
+  text-align: left;
+}
+#portlet-reorderer-root {
+  border: 1px solid black;
+}
+td {
+  padding: 8px;
+  vertical-align: top;
+  border: 1px solid black;
+}
+
+
