@@ -1,9 +1,9 @@
 === Fluid Accessible Sorting Portlet ===
-Contributors: Theofanis Oikonomou, Dionysia Kontotasiou
+Contributors: Dionysia Kontotasiou
 Tags: accessible, WAI, ARIA, fluid, widgets
 Requires at least: 3.0.1
-Tested up to: 3.2.1
-Stable tag: 2.0
+Tested up to: 3.3.2
+Stable tag: 3.0
 
 Fluid Accessible Sorting Portlet is a WAI-ARIA Enabled Sorting Portlet Plugin for Wordpress
 
@@ -44,3 +44,5 @@ This work was supported by the [Informatics and Telematics Institute](http://www
 * initial release
 = 2.0 =
 * Version 2.0
+= 3.0 =
+* Version 3.0

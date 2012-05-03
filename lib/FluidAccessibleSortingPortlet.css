@@ -13,27 +13,5 @@ td {
   vertical-align: top;
   border: 1px solid black;
 }
-.fl-reorderer-movable-default {
-  border: 2px solid #ddd;
-}
-.fl-reorderer-movable-hover {
-  border: 2px solid #666;
-}
-.fl-reorderer-movable-dragging {
-    background-color: white;
-}
-.fl-reorderer-movable-selected {
-  border: 2px solid #666;
-  background-color: #ddd;
-}
-.fl-reorderer-movable-avatar {
-  height: 25px;
-  width: 50px;
-  background-color: blue;
-  opacity: 0.75;
-}
-.fl-reorderer-movable-dropMarker {
-  height: 4px !important;
-  width: 80px;
-  background-color: green;
-}
+
+

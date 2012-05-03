@@ -3,9 +3,9 @@
 Plugin Name: Fluid Accessible Sorting Portlet
 Plugin URI: http://wordpress.org/extend/plugins/fluid-accessible-sorting-portlet/
 Description: WAI-ARIA Enabled Sorting Portlet Plugin for Wordpress
-Author: Theofanis Oikonomou, Dionysia Kontotasiou
-Version: 2.0
-Author URI: http://www.iti.gr/iti/people/ThOikon.html, http://www.iti.gr/iti/people/Dionisia_Kontotasiou.html
+Author: Dionysia Kontotasiou
+Version: 3.0
+Author URI: http://www.iti.gr/iti/people/Dionisia_Kontotasiou.html
 */
 include_once 'getRecentPosts.php';
 include_once 'getRecentComments.php';
@@ -25,6 +25,12 @@ function FluidAccessibleSortingPortlet_init() {
 
         wp_register_style('FluidAccessibleSortingPortlet_css', ( get_bloginfo('wpurl') . '/wp-content/plugins/fluid-accessible-sorting-portlet/lib/FluidAccessibleSortingPortlet.css'));
         wp_enqueue_style('FluidAccessibleSortingPortlet_css');
+		
+		wp_register_style('reorderer', ( get_bloginfo('wpurl') . '/wp-content/plugins/fluid-accessible-sorting-portlet/lib/Reorderer.js'));
+        wp_enqueue_style('reorderer');
+		
+		wp_register_style('reorderer_css', ( get_bloginfo('wpurl') . '/wp-content/plugins/fluid-accessible-sorting-portlet/lib/Reorderer.css'));
+        wp_enqueue_style('reorderer_css');
     }
 }
 
